@@ -224,6 +224,7 @@ nav {
     color: #F1FFFC;
     border-radius: 4px;
     text-shadow: 1px 1px 1px #000B35;
+    font-size: 0.7em;
 
 }
 
@@ -302,6 +303,19 @@ footer {
 }
 
 /*HOME PAGE*/
+
+#index-carousel {
+ 
+}
+
+.carousel-inner {
+  min-height: 200px;
+}
+
+
+.carousel-item>h1 {
+  margin-top: 20px;
+}
 
 #groupPhotoLg {
     border-radius: 20px;
@@ -397,12 +411,8 @@ footer {
 
 }
 
-/*ADJUSTING FOR LARGER SCREENS*/
-
+/*ADJUSTING FOR LARGER SCREENS/////////*/
 @media (min-width: 575px) {
-
-
-
   #brand-banner {
   padding-left: 20px;
   padding-right: 20px;
@@ -411,7 +421,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-
+/*COMMON STYLINGS*/
 .no-side-padding-md {
   padding-left: 0px;
   padding-right: 0px;
@@ -421,6 +431,12 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
 }
+/*NAVIGATION*/
+
+.nav-link {
+  font-size: 0.9em;
+}
+
 
 /*BRAND STYLING*/
 
@@ -430,4 +446,15 @@ footer {
 
 @media (min-width: 992px) {
 
+.nav-link {
+  font-size: 1em;
+}
+
+#index-carousel {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 327px;
+}
 }
