@@ -1,0 +1,11 @@
+#001255 - midnight blue
+#000B35 - accent dark blue
+#6A8D73 - russian green
+#F1FFFC - light cyan
+#C57B57 - copper crayola
+#D64933 - cinnabar
+#7494EA - cornflower blue
+#E6EAF0 - alice blue
+#8D9FB9 - cadet grey
+#3a3982 - logo-blue
+#da0009 - logo-red
