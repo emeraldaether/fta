@@ -139,7 +139,7 @@ body {
 }
 
 .content-hLite {
-  background-color: #D64933; 
+  background-color: #C57B57; 
 }
 
 .content-hLite>h2>a {
@@ -221,7 +221,7 @@ nav {
 }
 
 .nav-link {
-    color: #F1FFFC;
+    
     border-radius: 4px;
     text-shadow: 1px 1px 1px #000B35;
     font-size: 0.7em;
@@ -430,6 +430,11 @@ footer {
 .side-padding-md {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.hvy-side-padding-md {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /*NAVIGATION*/
 
