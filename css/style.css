@@ -77,6 +77,10 @@ body {
   background-color: inherit!important;
 }
 
+.dark-bg {
+  background-color: rgb(0, 1, 53, 0.7);
+}
+
 .dark-blue-bg {
   background: #001255!important;
   box-shadow: 2px 2px 2px #000B35;
@@ -122,6 +126,7 @@ body {
   border-style: solid;
   border-color: #000B35;
   height: 100%;
+  opacity: 0.9;
 }
 
 .content:hover, .content-hLite:hover {
@@ -139,14 +144,21 @@ body {
 }
 
 .content-hLite {
-  background-color: #C57B57; 
+  background-color: #000B35;
+  color: #C57B57;
+  text-shadow: 1px 1px 1px #D64933; 
 }
 
-.content-hLite>h2>a {
-  color: #ADBFFF;
-  text-shadow: 1px 1px 1px #000B35;
-  opacity: 0.9;
+.content-hLite a {
+  color:#F1FFFC;
+  text-shadow: none;
 }
+
+.content-hLite a:hover {
+  color: #8D9FB9;
+}
+
+
 
 .content-hLite>h2>a:hover {
   color: #F1FFFC;
@@ -300,7 +312,10 @@ footer {
   left: 0px;
   width: 100%;
   margin: 240px 0px 0px 0px;
+  color: #8D9FB9;
 }
+
+
 
 /*HOME PAGE*/
 
@@ -309,8 +324,10 @@ footer {
 }
 
 .carousel-inner {
-  min-height: 200px;
+  min-height: 450px;
 }
+
+
 
 
 .carousel-item>h1 {
