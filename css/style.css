@@ -65,7 +65,9 @@ a.dark-blue-text:hover {
 
 
 .content-hLite {
-  background-color: #D64933; 
+  background-color: #001255;
+  color: #C57B57;
+  text-shadow: 1px 1px 1px #000B35;  
 }
 
 .content, .content-hLite {
@@ -73,6 +75,7 @@ a.dark-blue-text:hover {
   border-style: solid;
   border-color: #000B35;
   height: 100%;
+  opacity: 0.9;
 }
 
 .content:hover, .content-hLite:hover {
@@ -82,6 +85,11 @@ a.dark-blue-text:hover {
 .content:nth-child(even) a.dark-blue-text:hover {
   color: #F1FFFC;
 }
+
+.dark-bg {
+  background-color: rgb(0, 1, 53, 0.7);
+}
+
 
 .no-box-shadow {
   box-shadow: none!important;
@@ -175,16 +183,16 @@ a.dark-blue-text:hover {
   line-height: 1.5;
 }
 
-
-
-
-
-
-.content-hLite>h2>a {
-  color: #ADBFFF;
-  text-shadow: 1px 1px 1px #000B35;
-  opacity: 0.9;
+.content-hLite a {
+  color: #F1FFFC;
+  text-shadow: none;
 }
+
+.content-hLite a:hover {
+  color: #D64933;
+}
+
+
 
 .content-hLite>h2>a:hover {
   color: #F1FFFC;
@@ -358,6 +366,20 @@ footer {
     opacity: 0.75;
 }
 
+#index-carousel {
+
+}
+
+.carousel-inner {
+  min-height: 450px;
+}
+
+
+
+
+.carousel-item>h1 {
+  margin-top: 20px;
+}
 /*///////////////////////////////////////////*/
 /*FONTANAN*/
 
