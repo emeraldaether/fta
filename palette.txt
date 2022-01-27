@@ -8,4 +8,4 @@
 #E6EAF0 - alice blue
 #8D9FB9 - cadet grey
 #3a3982 - logo-blue
-#da0009 - logo-red
+#da0009 -  logo-red

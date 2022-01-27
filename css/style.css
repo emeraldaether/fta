@@ -12,7 +12,6 @@ a {
 }
 a:hover, a:active {
     color: #da0009;
-
 }
 
 body {
@@ -38,9 +37,54 @@ body {
 /*//////////////////////////////////////////////////////*/
 /*WIDE USE CLASSES*/
 
+a.dark-blue-text:hover {
+  color: #8D9FB9;
+  text-shadow: 1px 1px 2px #000B35;
+}
+
 .auto-margin {
     margin-left: auto!important;
     margin-right: auto!important;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background-color: #8D9FB9;
+}
+
+.content:nth-child(odd) {
+  background-color: #001255;
+  color: #F1FFFC;
+  text-shadow: 1px 1px 1px #8D9FB9;
+}
+
+
+.content-hLite {
+  background-color: #D64933; 
+}
+
+.content, .content-hLite {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #000B35;
+  height: 100%;
+}
+
+.content:hover, .content-hLite:hover {
+  box-shadow: 2px 2px 1px #001255;
+}
+
+.content:nth-child(even) a.dark-blue-text:hover {
+  color: #F1FFFC;
+}
+
+.no-box-shadow {
+  box-shadow: none!important;
 }
 
 .no-padding {
@@ -51,6 +95,10 @@ body {
   padding: 10px!important;
 }
 
+.margin-btm-15 {
+  margin-bottom: 15px;
+}
+
 .margin-btm-30 {
   margin-bottom: 30px;
 }
@@ -59,7 +107,9 @@ body {
   text-shadow: none!important;
 }
 
-
+.dark-blue-text {
+  color: #001255;
+}
 
 .lite-bg {
   background-color: #E6EAF0!important;
@@ -75,10 +125,6 @@ body {
   border: none!important;
   box-shadow: none!important;
   background-color: inherit!important;
-}
-
-.dark-bg {
-  background-color: rgb(0, 1, 53, 0.7);
 }
 
 .dark-blue-bg {
@@ -106,6 +152,10 @@ body {
    border-color: #000B35;
 }
 
+.content:nth-child(odd)>.dark-blue-border-btm {
+  border-color: #F1FFFC;
+}
+
 .no-bold {
   font-weight: 200;
 }
@@ -119,49 +169,33 @@ body {
   border-color: #3a3982;
 }
 
-.content, .content-hLite {
-  display: flex;
-  align-items: center;
-  border-width: 1px 1px 1px 1px;
-  border-style: solid;
-  border-color: #000B35;
-  height: 100%;
-  opacity: 0.9;
-}
 
-.content:hover, .content-hLite:hover {
-  box-shadow: 2px 2px 1px #001255;
-}
 
 .content>h2, .content-hLite>h2 {
   line-height: 1.5;
-  
-  color: #3a3982;
-}
-
-.content {
-  background-color: #8D9FB9;
-}
-
-.content-hLite {
-  background-color: #001255;
-  color: #C57B57;
-  text-shadow: 1px 1px 1px #000B35; 
-}
-
-.content-hLite a {
-  color: #F1FFFC;
-  text-shadow: none;
-}
-
-.content-hLite a:hover {
-  color: #D64933;
 }
 
 
+
+
+
+
+.content-hLite>h2>a {
+  color: #ADBFFF;
+  text-shadow: 1px 1px 1px #000B35;
+  opacity: 0.9;
+}
 
 .content-hLite>h2>a:hover {
   color: #F1FFFC;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.spacing-sm {
+  min-height: 75px;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////*/
@@ -233,10 +267,9 @@ nav {
 }
 
 .nav-link {
-    
+    color: #F1FFFC;
     border-radius: 4px;
     text-shadow: 1px 1px 1px #000B35;
-    font-size: 0.7em;
 
 }
 
@@ -312,27 +345,9 @@ footer {
   left: 0px;
   width: 100%;
   margin: 240px 0px 0px 0px;
-  color: #8D9FB9;
 }
-
-
 
 /*HOME PAGE*/
-
-#index-carousel {
- 
-}
-
-.carousel-inner {
-  min-height: 450px;
-}
-
-
-
-
-.carousel-item>h1 {
-  margin-top: 20px;
-}
 
 #groupPhotoLg {
     border-radius: 20px;
@@ -341,8 +356,6 @@ footer {
     float: left;
     position: relative;
     opacity: 0.75;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*///////////////////////////////////////////*/
@@ -405,10 +418,32 @@ footer {
 }
 
 
+/*COMMITTEES*/
+
+#top-btn {
+  position: sticky;
+  
+}
+
 /*ADJUSTING FOR MOBILE DEVICES*/
 
 @media (max-width: 575px) {
   
+  .dark-blue-border-btm-xs {
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #000B35;
+
+  }
+
+  .margin-btm-30-xs {
+    margin-bottom: 30px;
+  }
+
+  .padding-btm-30-xs {
+    padding-bottom: 30px;
+  }
+
   .no-text-shadow-sm {
     text-shadow: none!important;
   }
@@ -430,8 +465,12 @@ footer {
 
 }
 
-/*ADJUSTING FOR LARGER SCREENS/////////*/
+/*ADJUSTING FOR LARGER SCREENS*/
+
 @media (min-width: 575px) {
+
+
+
   #brand-banner {
   padding-left: 20px;
   padding-right: 20px;
@@ -440,7 +479,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-/*COMMON STYLINGS*/
+
 .no-side-padding-md {
   padding-left: 0px;
   padding-right: 0px;
@@ -451,17 +490,6 @@ footer {
   padding-right: 25px;
 }
 
-.hvy-side-padding-md {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-/*NAVIGATION*/
-
-.nav-link {
-  font-size: 0.9em;
-}
-
-
 /*BRAND STYLING*/
 
 
@@ -470,15 +498,4 @@ footer {
 
 @media (min-width: 992px) {
 
-.nav-link {
-  font-size: 1em;
-}
-
-#index-carousel {
-  height: 100%;
-}
-
-.carousel-inner {
-  height: 327px;
-}
 }
