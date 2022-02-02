@@ -41,7 +41,7 @@ if (document.getElementById("pr-forms")) {
   var email = document.getElementsByClassName("pr-email");
   var subject = document.getElementsByClassName("pr-subject");
 for (i=0; i<submit.length; i++){
-  console.log(name.item(i))
+  console.log(item(na))
 }
 }
 

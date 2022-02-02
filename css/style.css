@@ -103,6 +103,10 @@ a.dark-blue-text:hover {
   padding: 10px!important;
 }
 
+.padding-btm-30 {
+  padding-bottom: 30px;
+}
+
 .margin-btm-15 {
   margin-bottom: 15px;
 }
