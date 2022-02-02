@@ -353,6 +353,7 @@ footer {
   left: 0px;
   width: 100%;
   margin: 240px 0px 0px 0px;
+  color: #F1FFFC;
 }
 
 /*HOME PAGE*/
@@ -466,7 +467,7 @@ footer {
     padding-bottom: 30px;
   }
 
-  .no-text-shadow-sm {
+  .no-text-shadow-xs {
     text-shadow: none!important;
   }
 

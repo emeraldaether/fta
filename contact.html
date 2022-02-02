@@ -73,6 +73,7 @@
                         <a href="eval.html" class="dropdown-item">Evaluations</a>
                         <a href="negotiation.html" class="dropdown-item">Negotiations</a>
                         <a href="benefits.html" class="dropdown-item">Benefits</a>
+                        <a href="salaries.html" class="dropdown-item">Salary Schedule</a>
                     </div>
                 </li>
             </ul>
@@ -112,6 +113,7 @@
                             <a href="eval.html" class="dropdown-item">Evaluations</a>
                             <a href="negotiation.html" class="dropdown-item">Negotiations</a>
                             <a href="benefits.html" class="dropdown-item">Benefits</a>
+                            <a href="salaries.html" class="dropdown-item">Salary Schedule</a>
                         </div>
                     </li>
 
@@ -144,28 +146,34 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-sm-8 col-md-6 auto-margin">
-                        <form action="">
+                    <div class="col-12 col-sm-8 col-md-6 auto-margin content">
+                        <div>
                             <div class="form-group">
                                 <label for="name" class="no-text-shadow">Full Name:</label>
-                                <input type="text" id="name" class="form-control" />
+                                <input type="text" id="con-name" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label for="email" class="no-text-shadow">E-mail:</label>
-                                <input type="email" id="email" class="form-control" />
+                                <input type="email" id="con-email" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="con-subject" class="form-control" />
                             </div>
                             <div class="form-group margin-btm-30">
                                 <label for="message" class="no-text-shadow">Your Message:</label>
-                                <textarea class="form-control" id="userMsg" cols="30" rows="10"></textarea>
+                                <textarea class="form-control" id="con-msg" cols="30" rows="10"></textarea>
                             </div>
                             <div class="centered">
-                                <button class="btn btn-primary">Submit</button>
+                                <button class="btn btn-primary margin-btm-15" id="con-submit">Submit</button>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
 
             </div>
+            <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
 
 
 
