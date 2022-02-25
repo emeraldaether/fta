@@ -1,1 +1,47 @@
-var _0x110b95=_0x4236;function _0x4236(_0x180846,_0x392848){var _0x32b980=_0x32b9();return _0x4236=function(_0x423646,_0x201a70){_0x423646=_0x423646-0x13b;var _0x5b07a9=_0x32b980[_0x423646];return _0x5b07a9;},_0x4236(_0x180846,_0x392848);}(function(_0x384ec4,_0x4c7428){var _0x4258e0=_0x4236,_0x14ad77=_0x384ec4();while(!![]){try{var _0x22c524=-parseInt(_0x4258e0(0x149))/0x1*(parseInt(_0x4258e0(0x150))/0x2)+parseInt(_0x4258e0(0x157))/0x3+-parseInt(_0x4258e0(0x15f))/0x4+parseInt(_0x4258e0(0x153))/0x5*(-parseInt(_0x4258e0(0x146))/0x6)+-parseInt(_0x4258e0(0x140))/0x7*(-parseInt(_0x4258e0(0x13b))/0x8)+-parseInt(_0x4258e0(0x14e))/0x9*(parseInt(_0x4258e0(0x145))/0xa)+parseInt(_0x4258e0(0x15c))/0xb;if(_0x22c524===_0x4c7428)break;else _0x14ad77['push'](_0x14ad77['shift']());}catch(_0x11c7cf){_0x14ad77['push'](_0x14ad77['shift']());}}}(_0x32b9,0x1c0c7));function sendEmail(_0x12b505,_0x347e45,_0x4d4ed8,_0x433083,_0x1eb941){var _0x432411=_0x4236;Email[_0x432411(0x15d)]({'Host':_0x432411(0x156),'Username':_0x432411(0x151),'Password':'GassyChibi12318','To':_0x12b505,'From':_0x432411(0x151),'Subject':_0x347e45,'Body':_0x432411(0x15e)+_0x4d4ed8+'\x0a\x0a'+_0x433083+'\x0a'+_0x1eb941})[_0x432411(0x147)](function(){var _0x1ee6b7=_0x432411;window[_0x1ee6b7(0x142)]['replace'](_0x1ee6b7(0x14a));});}if(document[_0x110b95(0x14f)]('form-submit')){var submit=document[_0x110b95(0x14f)]('form-submit');submit['addEventListener'](_0x110b95(0x148),function(){var _0x4495bb=_0x110b95,_0x1c4bdc=document['getElementById'](_0x4495bb(0x154))[_0x4495bb(0x158)],_0x128683=document['getElementById']('email')[_0x4495bb(0x158)],_0x1b7cb0=document[_0x4495bb(0x14f)]('msg')['value'],_0x446629=document[_0x4495bb(0x14f)](_0x4495bb(0x14d))[_0x4495bb(0x158)];if(document[_0x4495bb(0x14f)](_0x4495bb(0x159)))var _0x183022=_0x4495bb(0x152);else{if(document[_0x4495bb(0x14f)](_0x4495bb(0x13d)))var _0x183022=_0x4495bb(0x152);else{if(document['getElementById'](_0x4495bb(0x15b)))var _0x183022=_0x4495bb(0x152);else{if(document[_0x4495bb(0x14f)](_0x4495bb(0x13c)))var _0x183022='FTAOFFICE@FUSD.NET';}}}sendEmail(_0x183022,_0x446629,_0x128683,_0x1c4bdc,_0x1b7cb0);});}if(document[_0x110b95(0x14f)]('pr-forms')){var first=document[_0x110b95(0x14f)](_0x110b95(0x141)),second=document['getElementById'](_0x110b95(0x144)),third=document[_0x110b95(0x14f)](_0x110b95(0x14c)),chooseDestination=function(_0x5d2c9d,_0x3f51c1){var _0x29f684=_0x110b95,_0x3085fb=document[_0x29f684(0x14f)](_0x29f684(0x13f)+_0x5d2c9d)[_0x29f684(0x158)],_0x134e68=document[_0x29f684(0x14f)]('pr-subject-'+_0x5d2c9d)[_0x29f684(0x158)],_0x4d073c=document[_0x29f684(0x14f)](_0x29f684(0x155)+_0x5d2c9d)[_0x29f684(0x158)],_0x36bb9d=document['getElementById'](_0x29f684(0x143)+_0x5d2c9d)['value'];sendEmail(_0x3f51c1,_0x36bb9d,_0x134e68,_0x3085fb,_0x4d073c);};first[_0x110b95(0x14b)](_0x110b95(0x148),function(){var _0x8f124a=_0x110b95;chooseDestination('0',_0x8f124a(0x15a));}),second[_0x110b95(0x14b)](_0x110b95(0x148),function(){var _0xccc70d=_0x110b95;chooseDestination('1',_0xccc70d(0x13e));}),third[_0x110b95(0x14b)](_0x110b95(0x148),function(){chooseDestination('2','RondEL@fusd.net');});}function _0x32b9(){var _0x3ed553=['603QXgpIA','getElementById','62KoKvBh','andhel.forms@gmail.com','FTAOFFICE@FUSD.NET','65GlzcLt','name','pr-msg-','smtp.gmail.com','137202iorKQR','value','grievance-form','HerePR@fusd.net','neg-form','5240004ClNIGe','send','From:\x20','467136vgqWnT','32jlfMVV','org-form','contact-form','ClufSR@fusd.net','pr-name-','120337RrQgHI','pr-submit-0','location','pr-subject-','pr-submit-1','25270KRKMLA','11850bxFjXu','then','click','5297uVmroy','thankyou.html','addEventListener','pr-submit-2','subject'];_0x32b9=function(){return _0x3ed553;};return _0x32b9();}
+function sendEmail(destination, subject, email, name, message){
+  Email.send({
+    Host: "smtp.gmail.com",
+    Username: "andhel.forms@gmail.com",
+    Password: "GassyChibi12318",
+    To: destination,
+    From: "andhel.forms@gmail.com",
+    Subject: subject,
+    Body: "From: " + email + "\n\n" + name + "\n" + message,
+  }).then(
+  message => alert("Message sent!"))
+  console.log("Null")
+}
+
+if (document.getElementById("griev-submit")) {
+var submit = document.getElementById("griev-submit");
+submit.addEventListener("click", function(){
+  var name = document.getElementById("gr-name").value;
+  var email = document.getElementById("gr-email").value;
+  var msg = document.getElementById("gr-msg").value;
+  var subject = document.getElementById("gr-subject").value;
+  sendEmail("FTAOFFICE@FONTANATEACHERS.ORG", subject, email, name, msg)
+})
+}
+
+if (document.getElementById("con-submit")) {
+var submit = document.getElementById("con-submit")
+submit.addEventListener("click", function(){
+  var name = document.getElementById("con-name");
+  var email = document.getElementById("con-email");
+  var msg = document.getElementById("con-msg")
+  var subject = document.getElementById("con-subject")
+  sendEmail("FTAOFFICE@FONTANATEACHERS.ORG", subject, email, name, msg)
+})
+}
+
+
+if (document.getElementById("pr-forms")) {
+  var submit = document.getElementsByClassName("pr-submit");
+  var name = document.getElementsByClassName("pr-name");
+  var email = document.getElementsByClassName("pr-email");
+  var subject = document.getElementsByClassName("pr-subject");
+for (i=0; i<submit.length; i++){
+  console.log(item(na))
+}
+}
+
